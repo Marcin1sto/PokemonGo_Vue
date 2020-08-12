@@ -4,14 +4,22 @@ import axios from 'axios'
 
 Vue.use(Vuex)
 
-const apiPokemons = 'https://pokemon-go1.p.rapidapi.com/pokemon_names.json'
-const apiBoosts = 'https://pokemon-go1.p.rapidapi.com/weather_boosts.json'
-
+/**
+ * Here you need add your API Key from rapidapi.com
+ * @type {{'x-rapidapi-key': string, 'x-rapidapi-host': string, useQueryString: boolean}}
+ */
 const headers = {
   'x-rapidapi-host': 'pokemon-go1.p.rapidapi.com',
-  'x-rapidapi-key': '18b673dc72msh4f9b8fad0f02a52p18c3ffjsn66f73b95548e',
+  'x-rapidapi-key': 'RAPID-KEY',
   useQueryString: true
 }
+
+/**
+ * Endpoints for Api
+ * @type {string}
+ */
+const apiPokemons = 'https://pokemon-go1.p.rapidapi.com/pokemon_names.json'
+const apiBoosts = 'https://pokemon-go1.p.rapidapi.com/weather_boosts.json'
 
 export default new Vuex.Store({
   state: {
