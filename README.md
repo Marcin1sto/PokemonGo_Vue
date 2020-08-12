@@ -1,5 +1,10 @@
 # pokemon_go
 
+## Project use API from 
+```
+https://rapidapi.com/brianiswu/api/pokemon-go1?endpoint=apiendpoint_e0d33c37-95f7-4ced-8f4e-be0839b0c27e
+```
+
 ## Project setup
 ```
 npm install
@@ -19,6 +24,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
